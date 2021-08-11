@@ -6,6 +6,16 @@ body {
     background-attachment: fixed;
 }
 
+p{
+    font-family: 'Anton', sans-serif;
+}
+
+a {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+}
+
 .imagen-center {
     display: grid;
     place-items: center;
@@ -19,4 +29,13 @@ body {
     .medidas{
         width: 50%;
     }
+}
+
+.bg-naranja {
+    background-color: #fb8500;
+}
+
+.bi-three-dots{
+    color: #7400b8;
+    font-size: 2rem;
 }
