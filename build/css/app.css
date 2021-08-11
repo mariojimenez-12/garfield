@@ -1,0 +1,22 @@
+body {
+    background-image: url(../images/IMG_0883.JPG);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.imagen-center {
+    display: grid;
+    place-items: center;
+}
+
+.medidas {
+    width: 100%;
+}
+
+@media (min-width: 780px) {
+    .medidas{
+        width: 50%;
+    }
+}
