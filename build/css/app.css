@@ -14,6 +14,7 @@ a {
     font-family: 'Anton', sans-serif;
     letter-spacing: .2rem;
     text-transform: uppercase;
+    text-decoration: none   ;
 }
 
 .imagen-center {
@@ -32,10 +33,20 @@ a {
 }
 
 .bg-naranja {
-    background-color: #fb8500;
+    background-color: #f59600;
 }
 
 .bi-three-dots{
     color: #7400b8;
     font-size: 2rem;
+}
+.bi-telegram{
+    color: #000;
+    font-size: 4.1rem;
+    background-color: #fff;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 71%;
+    display: grid;
+    place-items: center;
 }
