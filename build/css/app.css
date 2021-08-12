@@ -4,10 +4,16 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
+}
+
+.bg-orange {
+    background-color: #f2b14ce8 !important;
 }
 
 p{
     font-family: 'Anton', sans-serif;
+     color: #5c4298;
 }
 
 a {
@@ -15,6 +21,10 @@ a {
     letter-spacing: .2rem;
     text-transform: uppercase;
     text-decoration: none   ;
+}
+
+.hover:hover{
+    color: #7400b8 !important;
 }
 
 .imagen-center {
@@ -49,4 +59,13 @@ a {
     border-radius: 71%;
     display: grid;
     place-items: center;
+}
+
+.navbar-nav {
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.f-size {
+    font-size: 2rem;
 }
