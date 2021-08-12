@@ -72,3 +72,16 @@ a {
 .mgl {
     margin-left: 1rem;
 }
+
+.g-center {
+    display: grid;
+    place-items: center;
+}
+
+.w-30 {
+    width: 50%;
+}
+
+.w-42 {
+    width: 42%;
+}
