@@ -63,9 +63,12 @@ a {
 
 .navbar-nav {
     flex-direction: row;
-    gap: 1rem;
 }
 
 .f-size {
     font-size: 2rem;
+}
+
+.mgl {
+    margin-left: 1rem;
 }
